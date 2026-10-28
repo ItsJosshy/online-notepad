@@ -1,0 +1,19 @@
+{
+  "name": "still-notepad",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A quiet, self-hosted notepad with real-time autosave.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test",
+    "test:browser": "node scripts/browser-smoke.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.58.2"
+  }
+}
